@@ -7,7 +7,7 @@ prediction of electoral votes(feat. psychological test)
 ## 프로젝트 목표 
 - 마키아벨리즘 성향 테스트 답변 데이터를 기반으로 
 머신러닝의 분류모델을 활용하여 국가 선거 투표의 참여 여부를 예측하기 
-> 마키아벨리즘 성향이 강할수록 투표에 적극적으로 참여할까??
+> 마키아벨리즘 성향이 강할수록 투표에 적극적으로 참여할까??🧐
 
 ## 데이터 소개
 ### 출처
@@ -17,7 +17,12 @@ prediction of electoral votes(feat. psychological test)
 1. 마키아벨리즘 성향 데스트 답변
 2. 성격, 연령 등 인적사항 설문조사 답변
 
-## 모델링 과정
+## 프로세스
+### 1차 전처리
+
+### N차 전처리
+
+### 모델 개발 과정
 ![image](https://user-images.githubusercontent.com/67700119/98928715-77da3300-251d-11eb-8523-b1a494bbd789.png)
 
 ## 결과
