@@ -18,7 +18,7 @@ prediction of electoral votes(feat. psychological test)
 2. 성격, 연령 등 인적사항 설문조사 답변
 
 ## 모델링 과정
-![image](https://user-images.githubusercontent.com/67700119/98927386-d0a8cc00-251b-11eb-8362-57f99cf74007.png)
+![image](https://user-images.githubusercontent.com/67700119/98927700-3bf29e00-251c-11eb-828a-d05c9a5e7a9c.png)
 
 ## 결과
 
