@@ -1,3 +1,10 @@
+"""
+With this module, you could explore the relation of each feature to 'voted' data by pyplot graph.
+
+To use this module, objectify `EDA_Graph()` class first.
+Be sure to input right path of the dataset you want to analyze when you objectify this class.
+"""
+
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -6,9 +13,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-class EDA_Graph():
+class EDAGraph():
     """
-    With this class, you could explore the relation of each feature to 'voted' data.
     Input the path of data you want to analyze when you objectify this class.
     """
     
@@ -25,9 +31,10 @@ class EDA_Graph():
     
     # 2. 각 Feature별 단순 투표량 비교 수치 시각화
     def nums_votes(self, col_name):
-        '''
-        `nums_votes` is a function drawing plot image that shows relation of each feature to numbers of 'voted' data.
-        Input name of the column you want to explore in string type.
+        '''Returns a plot image that shows relation of each feature to numbers of 'voted' data.
+        
+        Args:
+            col_name (str): Name of the column you want to explore
         '''
         
         if self.df[col_name].nunique() < 5:
@@ -48,9 +55,10 @@ class EDA_Graph():
     
     # 3. 각 Feature별 투표율 비교 수치 시각화
     def voting_rates(self, col_name):
-        '''
-        `voting_rates` is a function drawing plot image that shows relation of each feature to voting rates calculated from 'voted' data.
-        Input name of the column you want to explore in string type.
+        '''Returns a plot image that shows relation of each feature to voting rates calculated from 'voted' data.
+        
+        Args:
+            Name of the column you want to explore
         '''
 
         df_name = pd.crosstab(self.df[col_name], self.df['voted'])
@@ -60,13 +68,13 @@ class EDA_Graph():
     
     # 4. 각 그래프 이미지 저장
     def save_as_img(self, *col_names, votes_num = True):
-        '''
-        `save_as_img` is a function saving plot images that show relation of each feature to 'voted' data.
+        '''Returns plot images and saves as PNG type
         
-        *col_names : string, one element or list
-            Input name(s) of the column(s) you want to see the relation to 'voted' data.
-        votes_num : bool, optional, 'True' is default
-            Type 'True' if you want the graph with numbers of votes. Type 'False' if you want the graph with voting rates.
+        Args:
+            *col_names (str): one element or list
+                              Input name(s) of the column(s) you want to see the relation to 'voted' data.
+            votes_num (bool): optional, 'True' is default option
+                             Type 'True' if you want the graph with numbers of votes. Type 'False' if you want the graph with voting rates.
         ''' 
         
         ## graph 시각화 불가능 컬럼 제외
