@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 cates = {
     'education' : ['Less than high school','High school','University degree','Graduate degree'],
@@ -10,7 +11,7 @@ cates = {
     'religion' : ['Agnostic','Atheist','Buddhist','Christian(Catholic)','Christian(Mormon)','Christian(Protestant)','Christian(othrer)','Hindu','Jewish','Muslim','Sikh','Other'],
     'orientation' : ['Heterosexual','Bisexual','Homosexual','Asexual','Other'],
     'race' : ['Asian','Arab','Black','Indigenous Australian','Native American','White','Other'],
-    'voted' : ['Yes','No'],
+    'voted' : ['1', '0'],
     'married' : ['Never married','Currently married','Previously married'],
 }
 
@@ -60,7 +61,7 @@ class preprocessing1():
         self.df["v_score"] = self.df[v_score].sum(axis=1)
         self.df["t_score"] = self.df[t_score].sum(axis=1)
         self.df["m_score"] = self.df[m_score].sum(axis=1)
-        
+                
         # 텍스트 데이터로 변환, 시간 데이터 초단위로 환산
         vcl_col = []
         sec_col = []
@@ -97,4 +98,16 @@ class preprocessing1():
         # 나이 18세 이하 데이터 drop
         self.df = self.df[self.df["age"]>17]
         
-        return self.df
+        # train, test로 나누기 
+        df_X = self.df.drop('voted', axis=1)
+        df_X = pd.get_dummies(df_X)
+        
+        df_y = self.df['voted'].astype('int')
+        
+                
+        X_train, X_test, y_train, y_test=\
+        train_test_split(df_X, df_y, test_size=0.2,
+                         random_state=13, stratify=df_y)    
+
+        
+        return X_train, X_test, y_train, y_test
