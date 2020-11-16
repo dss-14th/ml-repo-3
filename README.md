@@ -28,7 +28,7 @@ prediction of electoral votes(feat. psychological test)
 ![image](https://user-images.githubusercontent.com/67700119/98930138-8e818980-251f-11eb-9698-ca2a0e4a0b06.png)
 
 ## 결과
-
+try https://github.com/dss-14th/ml-repo-3.wiki.git
 ## 한계점 
 
 ## 팀 구성원 & 역할
