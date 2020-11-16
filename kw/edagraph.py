@@ -1,7 +1,7 @@
 """
 With this module, you could explore the relation of each feature to 'voted' data by pyplot graph.
 
-To use this module, objectify `EDA_Graph()` class first.
+To use this module, objectify `EDA_Graph` class first.
 Be sure to input right path of the dataset you want to analyze when you objectify this class.
 """
 
@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-class EDAGraph():
+class EDAGraph:
     """
     Input the path of data you want to analyze when you objectify this class.
     """
