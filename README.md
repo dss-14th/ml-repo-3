@@ -1,5 +1,5 @@
 # 머신러닝 분류모델 개발 프로젝트
-[[PPT 다운로드_Download Presentation File]](https://github.com/dss-14th/ml-repo-3/raw/main/Who's_Voted.pdf)
+[발표자료 다운로드(pdf)](https://github.com/dss-14th/ml-repo-3/raw/main/Who's_Voted.pdf)
 * * *
 ## 🗳 투표에 참여한 사람일까, 아닐까?!
 - **프로젝트 주제**   
@@ -63,7 +63,7 @@
 
 * * *
 ## 🧐 프로젝트 자세히 보기   
-\>> [[PPT 다운로드_Download Presentation File]](https://github.com/dss-14th/ml-repo-3/raw/main/Who's_Voted.pdf)
+\>> [발표자료 다운로드(pdf)](https://github.com/dss-14th/ml-repo-3/raw/main/Who's_Voted.pdf)
 
 * * *
 ## ⌨️ 사용언어 
