@@ -54,6 +54,7 @@
 
 * * *
 ## 📈 최종 모델 성능   
+### AUC VALUE OF LGBM MODEL
    <img src="https://user-images.githubusercontent.com/68367393/99248451-ceac7900-284b-11eb-979b-23f76656f936.png" width="50%" height="50%" alt="Model_Performance"></img>
 
 * * *
