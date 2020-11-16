@@ -2,11 +2,11 @@
 
 * * *
 
-# 맞혀보자!! 이 사람, 투표했을까?
-## Guess!! Did He/She Vote?
+# 맞혀보자! 이 사람, 투표했을까?
+## Guess, Did He/She Vote?
 
 - 머신러닝 분류모델 개발 프로젝트
-<span style="color:#5E5E5E"> Developing Machine Learning Classifier Model Project</span>   
+<span style="color:gray"> Developing Machine Learning Classifier Model Project</span>   
 
    
    
