@@ -34,13 +34,13 @@
 
 * * *
 ## 💻 핵심 프로세스
-**1. 1차 전처리**   
+### 1. 1차 전처리   
    <img src="https://user-images.githubusercontent.com/68367393/99242278-4c6b8700-2842-11eb-89ec-e293a8bccd55.png" width="50%" height="50%" alt="1st_process"></img>
 
-**2. N차 데이터 전처리**   
+### 2. N차 데이터 전처리   
    <img src="https://user-images.githubusercontent.com/68367393/99243857-9b1a2080-2844-11eb-81ab-0296c8697f80.png" width="50%" height="50%" alt="Nth_process"></img>
 
-**3. 모델성능 고도화**   
+### 3. 모델성능 고도화     
    <img src="https://user-images.githubusercontent.com/68367393/99244010-d7e61780-2844-11eb-9f9d-cb4e42d35378.png" width="50%" height="50%" alt="Hyperparameter_Tuning"></img>
 
 
@@ -58,5 +58,5 @@
 
 * * *
 ## ⌨️ 사용언어 
-   <img src="https://user-images.githubusercontent.com/68367393/99245317-b7b75800-2846-11eb-9b62-77be67f3b17b.png" width="20%" height="20%" alt="python"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99245317-b7b75800-2846-11eb-9b62-77be67f3b17b.png" width="10%" height="10%" alt="python"></img>
 
