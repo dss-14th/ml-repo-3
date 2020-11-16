@@ -46,7 +46,7 @@
 
 * * *
 ## 📈 최종 모델 성능   
-   <img src="https://user-images.githubusercontent.com/68367393/99244486-7f634a00-2845-11eb-8263-2232a6cd4b9c.png" width="50%" height="50%" alt="Model_Performance"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99248451-ceac7900-284b-11eb-979b-23f76656f936.png" width="50%" height="50%" alt="Model_Performance"></img>
 
 * * *
 ## 📚 추가 해결 과제   
