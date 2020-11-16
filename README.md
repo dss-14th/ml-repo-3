@@ -27,21 +27,29 @@
 - LGBM, GBC, XGB, ADA
 
 ### 모델링 프로세스
-![image](https://user-images.githubusercontent.com/68367393/99240594-0dd4cd00-2840-11eb-9818-195f3928bd4f.png)
-
-### [1차 전처리]
-![image](https://user-images.githubusercontent.com/67700119/98930097-7dd11380-251f-11eb-920a-c4e9bb732481.png)
-- 1) 1차 데이터 전처리 (0, null 제거 등)
-- 2) N차 데이터 전처리 (3단계)
-   특성 데이터 선별
-   - Feature Selection by Feature Importance value
-- 3) Robust Scaling
-
-### 모델 성능
+![image](https://user-images.githubusercontent.com/68367393/99242046-06aebe80-2842-11eb-8a83-18d5b8b14ece.png)
 
 
-## 한계점 
+> #### 1차 전처리
+> ![image](https://user-images.githubusercontent.com/68367393/99242278-4c6b8700-2842-11eb-89ec-e293a8bccd55.png)
+>
+> #### N차 데이터 전처리
+> ![image](https://user-images.githubusercontent.com/68367393/99243857-9b1a2080-2844-11eb-81ab-0296c8697f80.png)
+>
+> #### 모델성능 고도화
+> ![image](https://user-images.githubusercontent.com/68367393/99244010-d7e61780-2844-11eb-9f9d-cb4e42d35378.png)
+>
 
-## 팀 구성원 & 역할
+### 최종 모델 성능
+![image](https://user-images.githubusercontent.com/68367393/99244486-7f634a00-2845-11eb-8263-2232a6cd4b9c.png)
+
+
+### 추가 해결 과제
+![image](https://user-images.githubusercontent.com/68367393/99245035-4a0b2c00-2846-11eb-9241-175ee1628a7e.png)
+
+
+## 프로젝트 자세히 보기
+\>> [[PPT 다운로드_Download Presentation File]](https://github.com/dss-14th/ml-repo-3/raw/main/Who's_Voted.pdf)
 
 ## 사용언어 
+![image](https://user-images.githubusercontent.com/68367393/99245317-b7b75800-2846-11eb-9b62-77be67f3b17b.png)
