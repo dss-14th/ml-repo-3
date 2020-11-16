@@ -61,6 +61,7 @@ class preprocessing1():
         self.df["v_score"] = self.df[v_score].sum(axis=1)
         self.df["t_score"] = self.df[t_score].sum(axis=1)
         self.df["m_score"] = self.df[m_score].sum(axis=1)
+        
                 
         # 텍스트 데이터로 변환, 시간 데이터 초단위로 환산
         vcl_col = []
@@ -86,12 +87,13 @@ class preprocessing1():
         # major 컬럼 drop
         self.df.drop(columns = "major", inplace = True)
         col_list2 = list(self.df.columns)
+
         
         # null, 0 데이터 제거
         self.df.dropna(inplace=True)
         zero_idx = []
         for col in col_list2:
-            zero_idx += list((self.df[self.df[col] == 0].index))
+            zero_idx += list((self.df[(self.df[col] == 0)].index))
         zero_idx = list(set(zero_idx))
         self.df.drop(zero_idx, inplace=True)
         
@@ -101,6 +103,10 @@ class preprocessing1():
         # train, test로 나누기 
         df_X = self.df.drop('voted', axis=1)
         df_X = pd.get_dummies(df_X)
+        
+        # 0 데이터 추가 확인되어 drop 
+        col_in_0 = [col for col in df_X.columns if '_0' in col]
+        df_X.drop(col_in_0, axis=1, inplace=True)
         
         df_y = self.df['voted'].astype('int')
         
