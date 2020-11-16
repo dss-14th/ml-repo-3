@@ -35,19 +35,20 @@
 * * *
 ## 💻 핵심 프로세스   
 ### 1. EDA
-\>> [edagraph.html](https://github.com/dss-14th/ml-repo-3/blob/main/EDA_data_association.html)
-\>> [edagraph.py](https://github.com/dss-14th/ml-repo-3/blob/main/edagraph.py)
+\>> [edagraph.html](https://github.com/dss-14th/ml-repo-3/blob/main/EDA_data_association.html)   
+\>> [edagraph.py](https://github.com/dss-14th/ml-repo-3/blob/main/edagraph.py)   
+   <img src="https://user-images.githubusercontent.com/68367393/99255786-c5c1a480-2857-11eb-9b5a-345f4dac5a19.png" width="50%" height="50%" alt="1st_process"></img>
 
 ### 2. 1차 전처리   
-\>> [preprocessing.py](https://github.com/dss-14th/ml-repo-3/blob/main/preprocessing.py)
+\>> [preprocessing.py](https://github.com/dss-14th/ml-repo-3/blob/main/preprocessing.py)   
    <img src="https://user-images.githubusercontent.com/68367393/99242278-4c6b8700-2842-11eb-89ec-e293a8bccd55.png" width="50%" height="50%" alt="1st_process"></img>
 
 ### 3. N차 데이터 전처리   
-\>> [preprocessing.py](https://github.com/dss-14th/ml-repo-3/blob/main/nthpreprocessing.py)
+\>> [preprocessing.py](https://github.com/dss-14th/ml-repo-3/blob/main/nthpreprocessing.py)   
    <img src="https://user-images.githubusercontent.com/68367393/99243857-9b1a2080-2844-11eb-81ab-0296c8697f80.png" width="50%" height="50%" alt="Nth_process"></img>
 
 ### 4. 모델성능 고도화     
-\>> [hyperparameter.py] ```추가 예정```
+\>> [hyperparameter.py] ```추가 예정```   
    <img src="https://user-images.githubusercontent.com/68367393/99244010-d7e61780-2844-11eb-9f9d-cb4e42d35378.png" width="50%" height="50%" alt="Hyperparameter_Tuning"></img>
 
 
