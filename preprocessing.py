@@ -16,7 +16,7 @@ cates = {
 }
 
 
-class preprocessing1():
+class Preprocessing():
     
     def __init__(self, df):
         self.df = df
@@ -25,7 +25,7 @@ class preprocessing1():
         self.df[cate] = self.df[cate].astype('str').replace(x, y)
         return self.df[cate]
 
-    def pre1(self):
+    def preprocessing_1th(self):
         # 직관적 EDA를 위해 컬럼명 수정
         self.df.rename(columns = {"Q1A" : "Q1_TP_notell_2u", "Q2A" : "Q2_TP_ppl_nd_dangun", "Q3A" : "Q3_TN_do_moral", "Q4A" : "Q4_VN_ppl_good", "Q5A" : "Q5_VP_ppl_bad", "Q6A" : "Q6_TN_hnsty_best", "Q7A" : "Q7_TN_lying_bad", "Q8A" : "Q8_VP_ppl_lazy", "Q9A" : "Q9_MN_humble_hnst", "Q10A" : "Q10_TN_hnstly_ask", "Q11A" : "Q11_VN_leader_clean", "Q12A" : "Q12_TP_trust_trouble", "Q13A" : "Q13_VP_ppl_criminal", "Q14A" : "Q14_VN_ppl_brave", "Q15A" : "Q15_TP_abu_good", "Q16A" : "Q16_TN_ppl_good", "Q17A" : "Q17_VN_ppl_notbad", "Q18A" : "Q18_VP_komsu_better", "Q19A" : "Q19_MP_anrocksa_ok", "Q20A" : "Q20_VP_money_good",
                      "Q1E" : "Q1E_notell_2u", "Q2E" : "Q2E_ppl_nd_dangun", "Q3E" : "Q3E_do_moral", "Q4E" : "Q4E_ppl_good", "Q5E" : "Q5E_ppl_bad", "Q6E" : "Q6E_hnsty_best", "Q7E" : "Q7E_lying_bad", "Q8E" : "Q8E_ppl_lazy", "Q9E" : "Q9E_humble_hnst", "Q10E" : "Q10E_hnstly_ask", "Q11E" : "Q11E_leader_clean", "Q12E" : "Q12E_trust_trouble", "Q13E" : "Q13E_ppl_criminal", "Q14E" : "Q14E_ppl_brave", "Q15E" : "Q15E_abu_good", "Q16E" : "Q16E_ppl_good", "Q17E" : "Q17E_ppl_notbad", "Q18E" : "Q18E_komsu_better", "Q19E" : "Q19E_anrocksa_ok", "Q20E" : "Q20E_money_good",

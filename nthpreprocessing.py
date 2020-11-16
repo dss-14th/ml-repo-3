@@ -77,30 +77,12 @@ class modeling:
 class NthPreprocessing(modeling):
     def __init__(self, X_train, X_test, y_train, y_test):
         super().__init__(X_train, X_test, y_train, y_test)
-#         self.X_train = X_train
-#         self.X_test = X_test
-#         self.y_train = y_train
-#         self.y_test = y_test
     
     def nth_preprocesing(self, feature_selection=False, scale_robust=False, feature_addition=False):
-#         if feature_selection==True:
-#             self.X_train, self.X_test, self.y_train, self.y_test = self.feature_selection()
-            
-#             if feature_addition==True:
-#                 self.X_train, self.X_test, self.y_train, self.y_test = self.feature_addition()
-                
-#                 if scale_robust == True:
-#                     self.X_train, self.X_test, self.y_train, self.y_test = self.scale_robust()
-#                     return self.X_train, self.X_test, self.y_train, self.y_test
-                
-#                 else:   
-#                     return self.X_train, self.X_test, self.y_train, self.y_test
-
-#             else:    
-#                 return self.X_train, self.X_test, self.y_train, self.y_test
-
-#         if scale_robust==True:
-#             self.scale_robust()
+        if feature_selection==True:
+            return self.feature_selection()
+        if scale_robust==True:
+            return self.scale_robust()
         if feature_addition==True:
             return self.feature_addition()
             
