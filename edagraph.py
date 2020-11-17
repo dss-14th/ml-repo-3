@@ -58,7 +58,7 @@ class EDAGraph:
         '''Returns a plot image that shows relation of each feature to voting rates calculated from 'voted' data.
         
         Args:
-            Name of the column you want to explore
+            col_name (str): Name of the column you want to explore
         '''
 
         df_name = pd.crosstab(self.df[col_name], self.df['voted'])
