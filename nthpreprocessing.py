@@ -74,10 +74,9 @@ class modeling:
             print('='*20)
             
 # N차 전처리 클래스(feature 선별, robust scaling, weight 컬럼 추가)
-class NthPreprocessing(modeling):
-    def __init__(self, X_train, X_test, y_train, y_test):
-        super().__init__(X_train, X_test, y_train, y_test)
-    
+class NthPreprocessing():
+    def __init__(self):
+            
     def nth_preprocesing(self, feature_selection=False, scale_robust=False, feature_addition=False):
         if feature_selection==True:
             return self.feature_selection()
