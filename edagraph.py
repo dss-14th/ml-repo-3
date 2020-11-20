@@ -1,3 +1,4 @@
+
 """
 With this module, you could explore the relation of each feature to 'voted' data by pyplot graph.
 
@@ -20,12 +21,15 @@ class EDAGraph:
     
     def __init__(self, data):
         self.data = data
-        self.df = self.read_data()
+        self.df = self.voted_data()
         self.columns = list(self.df.columns)
-    
-    # 1. dataset 불러오기
-    def read_data(self):
+
+        
+    # 1. data read & voted 컬럼 데이터 텍스트로 변환
+    def voted_data(self):
         df = pd.read_csv(self.data)
+        df["voted"] = df["voted"].apply(lambda x: x.replace("1", "Yes") if x == "1" else x.replace("0", "No"))
+        
         return df
     
     
@@ -62,7 +66,7 @@ class EDAGraph:
         '''
 
         df_name = pd.crosstab(self.df[col_name], self.df['voted'])
-        df_name["diff"] = (df_name["Yes"]/(df_name["Yes"]+df_name["No"]+df_name["0"])) 
+        df_name["diff"] = (df_name["Yes"]/(df_name["Yes"]+df_name["No"])) 
         return df_name["diff"].sort_values().plot(kind="bar")
 
     
@@ -82,20 +86,19 @@ class EDAGraph:
         if "major" in col_names:
             print("We cannot draw a graph of 'major' column.")
             col_names.remove("major")
-            
         if "voted" in col_names:
             print("We cannot draw a graph of 'voted' column.")
             col_names.remove("voted")
-            
         else:
             pass
 
+        
         ## save plot img as png
         if votes_num == True:
             for col_name in col_names:
                 self.nums_votes(col_name)
-                plt.savefig('../MACH_data/graph_img/nums_votes_graph_{}.png'.format(col_name), dpi=200, bbox_inches="tight")
+                plt.savefig('./MACH_data/graph_img/nums_votes_graph_{}.png'.format(col_name), dpi=200, bbox_inches="tight")
         else:
             for col_name in col_names:
                 self.voting_rates(col_name)
-                plt.savefig('../MACH_data/graph_img/voting_rates_graph_{}.png'.format(col_name), dpi=200, bbox_inches="tight")
+                plt.savefig('./MACH_data/graph_img/voting_rates_graph_{}.png'.format(col_name), dpi=200, bbox_inches="tight")
