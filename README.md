@@ -40,11 +40,11 @@
    <img src="https://user-images.githubusercontent.com/68367393/99255786-c5c1a480-2857-11eb-9b5a-345f4dac5a19.png" width="50%" height="50%" alt="1st_process"></img>
 
 ### 2. 1차 전처리   
-\>> [preprocessing.py](https://github.com/dss-14th/ml-repo-3/blob/main/preprocessing.py)   
+\>> [preprocessing1st.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/preprocessing1st.py)   
    <img src="https://user-images.githubusercontent.com/68367393/99242278-4c6b8700-2842-11eb-89ec-e293a8bccd55.png" width="50%" height="50%" alt="1st_process"></img>
 
 ### 3. N차 데이터 전처리   
-\>> [nthpreprocessing.py](https://github.com/dss-14th/ml-repo-3/blob/main/nthpreprocessing.py)   
+\>> [preprocessing_nth.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/preprocessing_nth.py)   
    <img src="https://user-images.githubusercontent.com/68367393/99243857-9b1a2080-2844-11eb-81ab-0296c8697f80.png" width="50%" height="50%" alt="Nth_process"></img>
 
 ### 4. 모델성능 고도화     
@@ -54,7 +54,8 @@
 
 * * *
 ## 📈 최종 모델 성능   
-### AUC VALUE OF LGBM MODEL
+### AUC VALUE OF LGBM MODEL   
+\>> [ml_project_result_machia_voted.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/ml_project_result_machia_voted.py)   
    <img src="https://user-images.githubusercontent.com/68367393/99248451-ceac7900-284b-11eb-979b-23f76656f936.png" width="50%" height="50%" alt="Model_Performance"></img>
 
 * * *
