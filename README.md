@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/68367393/100314200-73237d80-2ff9-11eb-918a-93521b24d241.png" width="100%" height="100%" alt="process">
+<img src="https://user-images.githubusercontent.com/68367393/100315728-710eee00-2ffc-11eb-8dca-bfb0dd6ef589.png" width="100%" height="100%" alt="process">
 
 # 머신러닝 분류모델 개발 프로젝트
 [발표자료 다운로드(pdf)](https://github.com/dss-14th/ml-repo-3/raw/main/Who's_Voted.pdf)
