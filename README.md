@@ -32,7 +32,7 @@
 - LGBM, GBC, XGB, ADA
 
 ### 모델링 프로세스   
-<img src="https://user-images.githubusercontent.com/68367393/100344457-2f923900-3024-11eb-9626-1f3e736255a5.png" width="60%" height="60%" alt="process">
+<img src="https://user-images.githubusercontent.com/68367393/100344769-ae877180-3024-11eb-8fd6-07b4ea9492a9.png" width="60%" height="60%" alt="process">
 
 * * *
 ## 💻 핵심 프로세스   
@@ -50,8 +50,8 @@
    <img src="https://user-images.githubusercontent.com/68367393/100344573-5d777d80-3024-11eb-8602-139d8878ca91.png" width="50%" height="50%" alt="Nth_process">
 
 ### 4. 모델성능 고도화     
-\>> [gridsearchfinal.py] (https://github.com/dss-14th/ml-repo-3/blob/main/module/gridsearchfinal.py)   
-\>> [fianl_lgbm_model.pickle] (https://github.com/dss-14th/ml-repo-3/blob/main/module/lgb.pickle)
+\>> [gridsearchfinal.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/gridsearchfinal.py)   
+\>> [fianl_lgbm_model.pickle](https://github.com/dss-14th/ml-repo-3/blob/main/module/lgb.pickle)
    <img src="https://user-images.githubusercontent.com/68367393/100344601-6d8f5d00-3024-11eb-9a8e-db1e0b021293.png" width="50%" height="50%" alt="Hyperparameter_Tuning">
 
 
