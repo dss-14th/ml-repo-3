@@ -39,7 +39,7 @@
 ### 1. EDA
 \>> [edagraph.html](https://github.com/dss-14th/ml-repo-3/blob/main/EDA_data_association.html)   
 \>> [edagraph.py](https://github.com/dss-14th/ml-repo-3/blob/main/edagraph.py)   
-   <img src="https://user-images.githubusercontent.com/68367393/99255786-c5c1a480-2857-11eb-9b5a-345f4dac5a19.png" width="50%" height="50%" alt="1st_process">
+   <img src="https://user-images.githubusercontent.com/68367393/100318186-f98f8d80-3000-11eb-9dc6-58a2cd36ee64.png" width="50%" height="50%" alt="1st_process">
 
 ### 2. 1차 전처리   
 \>> [preprocessing1st.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/preprocessing1st.py)   
