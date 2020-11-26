@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/68367393/100314200-73237d80-2ff9-11eb-918a-93521b24d241.png" width="100%" height="100%" alt="process">
+
 # 머신러닝 분류모델 개발 프로젝트
 [발표자료 다운로드(pdf)](https://github.com/dss-14th/ml-repo-3/raw/main/Who's_Voted.pdf)
 * * *
@@ -30,37 +32,37 @@
 - LGBM, GBC, XGB, ADA
 
 ### 모델링 프로세스   
-<img src="https://user-images.githubusercontent.com/68367393/99242046-06aebe80-2842-11eb-8a83-18d5b8b14ece.png" width="60%" height="60%" alt="process"></img>
+<img src="https://user-images.githubusercontent.com/68367393/99242046-06aebe80-2842-11eb-8a83-18d5b8b14ece.png" width="60%" height="60%" alt="process">
 
 * * *
 ## 💻 핵심 프로세스   
 ### 1. EDA
 \>> [edagraph.html](https://github.com/dss-14th/ml-repo-3/blob/main/EDA_data_association.html)   
 \>> [edagraph.py](https://github.com/dss-14th/ml-repo-3/blob/main/edagraph.py)   
-   <img src="https://user-images.githubusercontent.com/68367393/99255786-c5c1a480-2857-11eb-9b5a-345f4dac5a19.png" width="50%" height="50%" alt="1st_process"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99255786-c5c1a480-2857-11eb-9b5a-345f4dac5a19.png" width="50%" height="50%" alt="1st_process">
 
 ### 2. 1차 전처리   
 \>> [preprocessing1st.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/preprocessing1st.py)   
-   <img src="https://user-images.githubusercontent.com/68367393/99242278-4c6b8700-2842-11eb-89ec-e293a8bccd55.png" width="50%" height="50%" alt="1st_process"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99242278-4c6b8700-2842-11eb-89ec-e293a8bccd55.png" width="50%" height="50%" alt="1st_process">
 
 ### 3. N차 데이터 전처리   
 \>> [preprocessing_nth.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/preprocessing_nth.py)   
-   <img src="https://user-images.githubusercontent.com/68367393/99243857-9b1a2080-2844-11eb-81ab-0296c8697f80.png" width="50%" height="50%" alt="Nth_process"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99243857-9b1a2080-2844-11eb-81ab-0296c8697f80.png" width="50%" height="50%" alt="Nth_process">
 
 ### 4. 모델성능 고도화     
 \>> [hyperparameter.py] ```추가 예정```   
-   <img src="https://user-images.githubusercontent.com/68367393/99244010-d7e61780-2844-11eb-9f9d-cb4e42d35378.png" width="50%" height="50%" alt="Hyperparameter_Tuning"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99244010-d7e61780-2844-11eb-9f9d-cb4e42d35378.png" width="50%" height="50%" alt="Hyperparameter_Tuning">
 
 
 * * *
 ## 📈 최종 모델 성능   
 ### AUC VALUE OF LGBM MODEL   
 \>> [ml_project_result_machia_voted.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/ml_project_result_machia_voted.py)   
-   <img src="https://user-images.githubusercontent.com/68367393/99248451-ceac7900-284b-11eb-979b-23f76656f936.png" width="50%" height="50%" alt="Model_Performance"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99248451-ceac7900-284b-11eb-979b-23f76656f936.png" width="50%" height="50%" alt="Model_Performance">
 
 * * *
 ## 📚 추가 해결 과제   
-   <img src="https://user-images.githubusercontent.com/68367393/99245035-4a0b2c00-2846-11eb-9241-175ee1628a7e.png" width="50%" height="50%" alt="Review"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99245035-4a0b2c00-2846-11eb-9241-175ee1628a7e.png" width="50%" height="50%" alt="Review">
 
 * * *
 ## 🧐 프로젝트 자세히 보기   
@@ -68,5 +70,5 @@
 
 * * *
 ## ⌨️ 사용언어 
-   <img src="https://user-images.githubusercontent.com/68367393/99245317-b7b75800-2846-11eb-9b62-77be67f3b17b.png" width="7%" height="7%" alt="python"></img>
+   <img src="https://user-images.githubusercontent.com/68367393/99245317-b7b75800-2846-11eb-9b62-77be67f3b17b.png" width="7%" height="7%" alt="python">
 
