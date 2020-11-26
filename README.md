@@ -52,7 +52,7 @@
 ### 4. 모델성능 고도화     
 \>> [gridsearchfinal.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/gridsearchfinal.py)   
 \>> [fianl_lgbm_model.pickle](https://github.com/dss-14th/ml-repo-3/blob/main/module/lgb.pickle)
-   <img src="https://user-images.githubusercontent.com/68367393/100344601-6d8f5d00-3024-11eb-9a8e-db1e0b021293.png" width="50%" height="50%" alt="Hyperparameter_Tuning">
+   <img src="https://user-images.githubusercontent.com/68367393/100345054-19d14380-3025-11eb-8409-e122c5b72753.png" width="50%" height="50%" alt="Hyperparameter_Tuning">
 
 
 * * *
