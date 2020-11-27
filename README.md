@@ -63,7 +63,7 @@
 
 * * *
 ## 📚 추가 해결 과제   
-   <img src="https://user-images.githubusercontent.com/68367393/100344663-8566e100-3024-11eb-8352-4dbc39a1980d.png" width="60%" height="60%" alt="Review">
+   <img src="https://user-images.githubusercontent.com/68367393/100456811-4f009300-3104-11eb-8fa5-691c5414e5f5.png" width="60%" height="60%" alt="Review">
 
 * * *
 ## 🧐 프로젝트 자세히 보기   
