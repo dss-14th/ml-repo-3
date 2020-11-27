@@ -13,7 +13,7 @@
 ## 🔎 프로젝트 개요   
 
 ### 프로젝트 주제   
-   개인의 [심리성향 테스트 답변]과 [인적사항 데이터]를 기반으로 [국가투표 참여여부] 예측하기   
+- 개인의 [심리성향 테스트 답변]과 [인적사항 데이터]를 기반으로 [국가투표 참여여부] 예측하기   
 
 ### 활용 데이터   
 - **데이터 내용**   
@@ -32,7 +32,7 @@
 - LGBM, GBC, XGB, ADA
 
 ### 모델링 프로세스   
-<img src="https://user-images.githubusercontent.com/68367393/100344769-ae877180-3024-11eb-8fd6-07b4ea9492a9.png" width="60%" height="60%" alt="process">
+<img src="https://user-images.githubusercontent.com/68367393/100456582-fe893580-3103-11eb-9a34-b313f61ad8f9.png" width="60%" height="60%" alt="process">
 
 * * *
 ## 💻 핵심 프로세스   
@@ -41,29 +41,29 @@
 \>> [edagraph.py](https://github.com/dss-14th/ml-repo-3/blob/main/edagraph.py)   
    <img src="https://user-images.githubusercontent.com/68367393/100344489-3caf2800-3024-11eb-9106-a80e1be9e03b.png" width="50%" height="50%" alt="1st_process">
 
-### 2. 1차 전처리   
+### 2. 1차 데이터 전처리   
 \>> [preprocessing1st.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/preprocessing1st.py)   
-   <img src="https://user-images.githubusercontent.com/68367393/100344538-4df83480-3024-11eb-8f42-ec3603e5b75b.png" width="50%" height="50%" alt="1st_process">
+   <img src="https://user-images.githubusercontent.com/68367393/100344538-4df83480-3024-11eb-8f42-ec3603e5b75b.png" width="60%" height="60%" alt="1st_process">
 
 ### 3. N차 데이터 전처리   
 \>> [preprocessing_nth.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/preprocessing_nth.py)   
-   <img src="https://user-images.githubusercontent.com/68367393/100344573-5d777d80-3024-11eb-8602-139d8878ca91.png" width="50%" height="50%" alt="Nth_process">
+   <img src="https://user-images.githubusercontent.com/68367393/100344573-5d777d80-3024-11eb-8602-139d8878ca91.png" width="60%" height="60%" alt="Nth_process">
 
 ### 4. 모델성능 고도화     
 \>> [gridsearchfinal.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/gridsearchfinal.py)   
 \>> [fianl_lgbm_model.pickle](https://github.com/dss-14th/ml-repo-3/blob/main/module/lgb.pickle)   
-   <img src="https://user-images.githubusercontent.com/68367393/100345054-19d14380-3025-11eb-8409-e122c5b72753.png" width="50%" height="50%" alt="Hyperparameter_Tuning">
+   <img src="https://user-images.githubusercontent.com/68367393/100345054-19d14380-3025-11eb-8409-e122c5b72753.png" width="60%" height="60%" alt="Hyperparameter_Tuning">
 
 
 * * *
 ## 📈 최종 모델 성능   
 ### AUC VALUE OF LGBM MODEL   
 \>> [ml_project_result_machia_voted.py](https://github.com/dss-14th/ml-repo-3/blob/main/module/ml_project_result_machia_voted_final.py)   
-   <img src="https://user-images.githubusercontent.com/68367393/100344639-7aac4c00-3024-11eb-850b-b5fe1ff79c6d.png" width="50%" height="50%" alt="Model_Performance">
+   <img src="https://user-images.githubusercontent.com/68367393/100344639-7aac4c00-3024-11eb-850b-b5fe1ff79c6d.png" width="60%" height="60%" alt="Model_Performance">
 
 * * *
 ## 📚 추가 해결 과제   
-   <img src="https://user-images.githubusercontent.com/68367393/100344663-8566e100-3024-11eb-8352-4dbc39a1980d.png" width="50%" height="50%" alt="Review">
+   <img src="https://user-images.githubusercontent.com/68367393/100344663-8566e100-3024-11eb-8352-4dbc39a1980d.png" width="60%" height="60%" alt="Review">
 
 * * *
 ## 🧐 프로젝트 자세히 보기   
