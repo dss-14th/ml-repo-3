@@ -7,7 +7,7 @@ class GridSearch:
     def __init__(self, *xy_train_test, **lgb_param):
         lgb = LGBMClassifier()
         
-        lgb_param = {
+        lgb_param = {'random_state' : [13],
             'min_child_weight': [1, 5, 10],
             'gamma': [0.5, 1, 1.5, 2, 5],
             'subsample': [0.6, 0.8, 1.0],
